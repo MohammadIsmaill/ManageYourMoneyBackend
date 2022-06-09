@@ -4,7 +4,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node app"
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
@@ -19,6 +19,7 @@
     "express-mongo-sanitize": "^2.2.0",
     "helmet": "^5.1.0",
     "ioredis": "^4.27.10",
+    "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "method-override": "^3.0.0",
     "mongoose": "^6.0.6",
