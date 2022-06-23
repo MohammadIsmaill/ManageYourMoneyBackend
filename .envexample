@@ -1,2 +1,0 @@
-JWT_SECRET=abadsecret
-MONGO_URI=mongodb://localhost/app
