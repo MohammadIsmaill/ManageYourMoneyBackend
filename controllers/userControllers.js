@@ -39,6 +39,7 @@ const registerUser = async(req,res)=>{
     console.log(req.body)
 
     const user = new User({name,email,password:await hashPassword(password)})
+    await User.init()
     await user.save()
     if(user){
         res.status(201).json({
